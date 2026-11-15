@@ -1,0 +1,23 @@
+# Executaveis e arquivos de compilacao
+*.exe
+*.o
+*.obj
+*.out
+*.a
+*.dll
+*.pdb
+
+# Pastas de build
+build/
+build-*/
+debug/
+release/
+
+# Arquivos temporarios e do editor
+.vscode/
+.idea/
+*.tmp
+*.bak
+*~
+.DS_Store
+Thumbs.db
