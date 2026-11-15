@@ -12,26 +12,5 @@ Cada algoritmo utiliza duas instancias, duas configuracoes de parametros e reali
 - `Genetico/`: codigo `Genetico_mochila.cpp`, instancias da mochila e resultados em `resultados_genetico.txt`.
 - `Formiga/`: codigo `Colonia_tsp.cpp`, instancias do TSP e resultados em `resultados_colonia.txt`.
 
-## Como executar
-
-No terminal do VS Code, a partir da raiz do projeto, com **g++** instalado:
-
-**Algoritmo Genetico:**
-
-```powershell
-cd Genetico
-g++ -std=c++17 -O2 Genetico_mochila.cpp -o teste.exe
-.\teste.exe
-cd ..
-```
-
-**Colonia de Formigas:**
-
-```powershell
-cd Formiga
-g++ -std=c++17 -O2 Colonia_tsp.cpp -o teste.exe
-.\teste.exe
-cd ..
-```
 
 Os arquivos de instancia devem permanecer nas respectivas pastas para a leitura funcionar.
